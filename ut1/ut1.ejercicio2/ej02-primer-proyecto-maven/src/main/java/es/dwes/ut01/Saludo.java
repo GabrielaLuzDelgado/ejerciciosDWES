@@ -4,7 +4,7 @@ public class Saludo {
 
     /**
      * Devuelve un saludo para el nombre indicado.
-     * Ejemplo: saluda("Ana") devuelve "Hola, Ana".
+     * Ejemplo: saluda("Ana") devuelve "Hola, Ana"..
      * Si el nombre es null o está vacío, devuelve "Hola, desconocido".
      */
     public String saluda(String nombre) {
@@ -13,5 +13,4 @@ public class Saludo {
         }
         return "Hola, " + nombre.strip();
     }
-
 }
