@@ -86,7 +86,7 @@ const SQL_OBTENER_POKEDEX =
 // 4. UPDATE ---------------------------------------------------------------------------------
 // Parámetros: :id, :apodo, :nivel, :notas     (el Pokémon capturado y la fecha NO cambian)
 // ¡No olvides el WHERE!
-// Se ve en:   botón «Editar» → «Guardar».
+// Se ve en:   botón «Editar» → «Guardar»..
 const SQL_ACTUALIZAR_POKEDEX = 
     ' UPDATE pokedex
     SET apodo= :apodo, nivel=:nivel, notas=:notas
@@ -98,7 +98,6 @@ const SQL_ACTUALIZAR_POKEDEX =
 // Se ve en:   botón «Liberar».
 const SQL_LIBERAR_POKEMON = 
     ' DELETE FROM pokedex WHERE id = :id';
-
 
 // 6. AGREGADOS (GROUP BY) --------------------------------------------------------------------
 // Sin parámetros. Una fila por tipo de Pokémon capturado (solo tipos que tengas):
